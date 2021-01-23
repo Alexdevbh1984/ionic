@@ -1,0 +1,28 @@
+{
+  "name": "app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+ 
+    "proxies": [
+      {
+        "path": "/api",
+        "proxyUrl": "http://biuldtec.freevar.com/signup.php"
+      }
+    ]
+  }
+
+
+
+
+
+
+
+
